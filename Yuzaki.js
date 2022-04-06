@@ -237,19 +237,7 @@ setTimeout(() => {
 Neko.groupRemove(from, [kic]).catch((e) => { reply(`BOT HARUS JADI ADMIN`) })
 }, 0)
 }          
-if (budy.includes(`suki`)) {
-Neko.sendMessage(from, 'why are you gay?', text, {quoted: mek})
-                  }
-if (budy.includes(`anak kecil`)) {
-Neko.sendMessage(from, 'si pedo berulah', text, {quoted: mek})
-                  }
-if (budy.includes(`loli`)) {
-pedo = fs.readFileSync('./pedo.opus')
-Neko.sendMessage(from, pedo, audio, {quoted: mek})
-                  }
-                  if (budy.includes(`Assalamu'alaikum`)) {
-Neko.sendMessage(from, 'waalaikumsalam', text, {quoted: mek})
-                  }
+
 //=================( FAKE )=================//
 
 //FAKE VN
